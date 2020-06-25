@@ -1,5 +1,5 @@
 # Урок 6.
-В репозитори находятся файлы [Vagrantfile](Vagrantfile).
+В репозитори находятся файл вирт. машины [Vagrantfile](Vagrantfile). Файлы [time_vgs](time_vgs) [rab_vgs](rab_vgs), результаты работы с vgs. Файлы [time_mod_initrd](time_mod_initrd) [rab_mod_initrd](rab_mod_initrd), результаты работы с модулем в initrd. 
 ## Описание решения задания 1. Попасть в систему без пароля несколькими способами:
 ### 1. Способ 1. init=/bin/sh:
 #### 1. Добавляем в конец строки linux 16 init=/bin/sh в загрузчике;
