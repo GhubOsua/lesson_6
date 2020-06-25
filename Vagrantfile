@@ -2,7 +2,7 @@
 # vim: set ft=ruby :
 Virtual = ENV['Virtual']
 #ENV["LC_ALL"] = "en_US.UTF-8"
-disk = Virtual+'/lesson6/lesson6.vdi'
+disk = './lesson6/lesson6.vdi'
 
 Vagrant.configure(2) do |config|
 	config.vm.box_version = "1804.02"
